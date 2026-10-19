@@ -31,19 +31,30 @@
 //     Console.WriteLine("Пенсионер");
 // }
 
-int age = 16;
-double height = 1.45;
-bool isAdult = true;
-if (age >= 14 && height >= 1.5)
-{
-    Console.WriteLine("Можно кататься");
-}
-else if (age < 14 && height < 1.5)
-{
-    Console.WriteLine("Пока нельзя");
-} 
+// int age = 16;
+// double height = 1.45;
+// bool isAdult = true;
+// if (age >= 14 && height >= 1.5)
+// {
+//     Console.WriteLine("Можно кататься");
+// }
+// else if (age < 14 && height < 1.5)
+// {
+//     Console.WriteLine("Пока нельзя");
+// } 
 
-else if (isAdult == true)
+// else if (isAdult == true)
+// {
+//     Console.WriteLine("Можно кататься с сопровождающим");
+// }
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number % 2 == 0)
 {
-    Console.WriteLine("Можно кататься с сопровождающим");
+    Console.WriteLine("Число чётное");
+}
+else
+{
+    Console.WriteLine("Число нечётное");
 }
